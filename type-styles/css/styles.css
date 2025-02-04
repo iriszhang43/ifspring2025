@@ -54,12 +54,20 @@
   h1{
     font-size: 60px;
     height: 60px;
+    margin-top: 20px;
+  }
+
+  h2{
+    margin-top: 85px;
+    margin-bottom: 22px;
   }
 
   h3{
     font-size: 75%;
     height: 20px;
     color: rgb(159, 159, 159);
+    margin-bottom: -14px;
+    margin-top: 20px;
   }
 
   .bold{
