@@ -10,15 +10,18 @@ html{
 
 h1{
     font-size: 50px;
-    margin-top: 60px;
+    margin-top: 33px;
+    margin-bottom: -12px;
 }
 
 h2{
     font-size: 30px;
+    margin-top: 55px;
 }
 
 h3{
     font-size: 25px;
+    margin-bottom: 15px;
 }
 
 h4{
