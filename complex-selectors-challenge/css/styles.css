@@ -34,7 +34,7 @@ section.cast>ul>li{
     border-top:solid black 1px;
 }
 
-header nav{
+header nav ul .selected a{
     font-weight: bold;
     color: black;
 }
