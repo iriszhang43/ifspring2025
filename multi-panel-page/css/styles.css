@@ -1,0 +1,120 @@
+html{
+    font-family: "Archivo Narrow", serif;
+}
+
+header{
+    padding: 166px 0 188px 0;
+    background-image: url(../images/headerimg.jpg);
+    background-size: cover;
+    background-position:bottom;
+    color:white;
+}
+
+header h1{
+    text-align: center;
+    margin: 0 0 16px 0;
+    font-size: 60pt;
+    line-height: 1;
+}
+
+header h2 {
+    text-align:center;
+    font-size:30px;
+    line-height:1;
+    margin:0;
+}
+
+h3{
+    margin: 0 0 38px 0;
+    text-align: center;
+    font-size: 40px;
+    line-height: 1;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+section{
+    padding-top: 48px;
+    padding-left: 480px;
+    padding-right: 480px;
+    padding-bottom: 57px;
+}
+
+section#intro {
+    background-color: rgb(255, 223, 147);
+}
+
+section#intro p{
+    margin-bottom: -2px;
+}
+
+section#intro img{
+    width: 400px;
+    height:300px;
+    float: right;
+    margin: 0 0 20px 38px;
+}
+
+section#bodygrid {
+    background-color: white;
+}
+
+.grid{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: align;
+    gap: 38px;
+}
+
+.grid li{
+    display: flex;
+    gap: 12px;
+    text-align:left;
+    font-size: 0.8rem;
+    margin-bottom: -16.5px;
+}
+
+.grid div{
+    width: 230px;
+}
+
+.grid img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+h4{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: -10px;
+}
+
+section#lastsection {
+    background-color: rgb(255, 179, 242);
+    padding-bottom: 72px;
+
+}
+
+#lastsection h3{
+    margin-top: 2px;
+}
+
+#lastsection p{
+    margin-top: 40px;
+    margin-left: 120px;
+    margin-right: 120px;
+    text-align: center;
+    font-size: 26px;
+}
+
+footer{
+    margin-left: 480px;
+    padding: 24px 0px;
+    background-color: white;
+}
+
