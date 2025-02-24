@@ -38,8 +38,8 @@ p{
 
 section{
     padding-top: 48px;
-    padding-left: 480px;
-    padding-right: 480px;
+    padding-left: 240px;
+    padding-right: 240px;
     padding-bottom: 57px;
 }
 
@@ -55,7 +55,7 @@ section#intro img{
     width: 400px;
     height:300px;
     float: right;
-    margin: 0 0 20px 38px;
+    margin: 0 0 30px 40px;
 }
 
 section#bodygrid {
@@ -113,7 +113,7 @@ section#lastsection {
 }
 
 footer{
-    margin-left: 480px;
+    margin-left: 240px;
     padding: 24px 0px;
     background-color: white;
 }
