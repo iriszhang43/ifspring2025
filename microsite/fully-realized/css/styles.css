@@ -1,5 +1,5 @@
 html{
-    font-size: 12px;
+    font-size: 18px;
     font-family:'hoss-round', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-bottom: 25px;
     letter-spacing: 0.15px;
@@ -141,7 +141,6 @@ h1{
     padding-top: 40rem;
 }
 
-
 #both{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -168,7 +167,7 @@ h1{
 }
 
 h2{
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 55px;
     color: #b28c72;
 }
@@ -199,7 +198,6 @@ p{
 }
 
 .nutritionfacts p {
-    font-size: 25px;
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -278,13 +276,11 @@ ul.dessert {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
-.image-wrapper:hover,
-.image-wrapper:focus {
+.image-wrapper:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); 
 }
 
-.image-wrapper:hover .image-label,
-.image-wrapper:focus .image-label {
+.image-wrapper:hover .image-label {
     opacity: 1;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
 }
