@@ -1,0 +1,305 @@
+html{
+    font-size: 12px;
+    font-family:'hoss-round', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 25px;
+    letter-spacing: 0.15px;
+}
+
+body{
+    background-color: white;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column; 
+}
+
+header{
+    height: 400px;
+    padding: 166px 0 188px 0;
+    background-color: #ffeaf1;
+    background-size: cover;
+    background-position:bottom;
+    position: relative;
+    z-index: 1;
+    scroll-margin-top: 120px;
+}
+
+.headerimage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: -200px;
+    z-index: 0;
+}
+
+.navbuttons {
+    position: absolute;
+    top: 180px;
+    right: 30px;
+    display: flex;
+    flex-direction: column; 
+    z-index: 2; 
+    background-color: transparent;
+  }
+  
+.navbuttons li {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    padding: 10px 20px;
+    display: block;
+}
+
+li a{
+    color: #b28c72;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    text-decoration: none;
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 2px;
+    padding: 10px 20px;    
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+.navbuttons a:hover {
+    border-radius: 20px;
+    transform: scale(1.2);
+    background-color: #b28c72;
+    color: white;
+
+}
+
+@keyframes shake {
+    from { transform: scale(1.2) rotate(-8deg); }
+    33% { transform: scale(1.2) rotate(5deg); }
+    66% { transform: scale(1.2) rotate(-5deg); }
+    to { transform: scale(1.2) rotate(8deg); }
+  }
+
+.navbuttons a:active {
+    background-color: #b28c72;
+    color: white;
+    border-radius: 30px;
+    transform-origin: center bottom;
+    animation-name: shake;
+    animation-duration:0.3s;
+    animation-iteration-count:unset;
+    animation-direction: alternate;
+}
+
+h1{
+    font-size: 60px;
+    margin-top: -800px;
+    margin-bottom: -12px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    text-align: center;
+    padding: 1rem;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    color: #b28c72;
+}
+
+.toplink {
+    text-decoration: none;
+    color: #b28c72;
+    cursor: pointer;
+    display: inline-block;
+    transition: transform 0.7s ease, color 0.2s ease;
+}
+
+.toplink:hover {
+    color: #b28c72;
+    transform: scale(1.1);
+}
+
+.toplink:active{
+    color: #ffeaf1;
+    transform: scale(1.1);
+}
+
+.container{
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+#summary{
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    padding-top: 40rem;
+}
+
+
+#both{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #ffeaf1;
+    margin-top: 50px;
+}
+
+.left{
+    padding-right: 50px;
+    padding-left: 100px;
+    margin-left: -100px;
+    text-align: left;
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+}
+
+.right{
+    padding-left: 50px;
+    padding-right: 100px;
+    margin-right: -100px;
+    text-align: right;
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+}
+
+h2{
+    font-size: 40px;
+    margin-top: 55px;
+    color: #b28c72;
+}
+
+h3{
+    font-size: 25px;
+    position:absolute;
+    bottom: 20px;
+    left: 40px;
+    color: white;
+}
+
+h4{
+    font-size: 18px;
+    margin-top: 40px;
+    color: #b28c72;
+}
+
+h5{
+    font-size: 15px;
+    font-style: italic;
+    color: #b28c72;
+}
+
+p{
+    line-height: 30px;
+    color: #b28c72;
+}
+
+.nutritionfacts p {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    gap: 8px;
+    margin-right: 40%;
+}
+  
+.nutritionfacts p::after {
+    content: '';
+    border-bottom: 2px dotted #b28c72;
+    flex: 1;
+    position: absolute;
+    bottom: 6px;
+    left: 0;
+    right: 0;
+}
+  
+.nutritionfacts p span {
+    background-color: #ffeaf1; 
+    position: relative;
+    z-index: 1;
+    padding: 0 4px; 
+}
+
+.dessert img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    border-radius: 3rem;
+}
+
+ul.dessert {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 50px;
+    gap: 2rem;
+}
+
+.dessert li {
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.image-wrapper {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 3rem;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3rem;
+    display: block;
+}
+
+.image-label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.image-wrapper:hover,
+.image-wrapper:focus {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); 
+}
+
+.image-wrapper:hover .image-label,
+.image-wrapper:focus .image-label {
+    opacity: 1;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.dessert li{
+    position: relative;
+    display: block;
+    flex: 0 1 300px;
+    width: auto;
+    margin-bottom: 1rem;
+}
+
+footer{
+    color: lightgray;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
